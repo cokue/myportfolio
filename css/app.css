@@ -1,0 +1,63 @@
+body   {
+background: #FCFCFC;
+font-family: proxima-nova,'Nunito', sans-serif;
+margin: 3rem;
+font-size: 14px;
+}
+h1   {
+font-size: 1.3rem;
+font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+font-weight: 600;
+}
+  .header-nav   {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+  .header-nav img {
+  margin-bottom: 1rem;}
+
+  .header-nav-subtitle {
+font-size: 1rem;
+letter-spacing: .05rem;
+}
+
+  .header-nav-link  {
+text-transform: uppercase;
+font-weight:600;
+color: #000;
+letter-spacing: .05rem;
+  }
+  .header-nav-link:hover   {
+    color: rgba(144,29,29,.6);
+  }
+
+.is-active {
+  color: #7b183e;
+}
+.content {
+  margin: 2rem 0rem;
+}
+.about-pic  {
+  margin: 1rem 0rem;
+}
+.contact-form-field {
+  border-radius: .2rem;
+  box-shadow: none;
+  background-color: #fcfcfc;
+  border-color: #ccc;
+}
+.contact-form-field:focus  {
+  background-color: white;
+  border-color: #ccc;
+  box-shadow: none;
+}
+.contact-submit  {
+  padding: 1rem 2rem;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: .05rem
+}
+.contact-submit:hover  {
+  opacity: .8;
+  background-color: black;
+}
